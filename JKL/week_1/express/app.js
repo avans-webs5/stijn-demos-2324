@@ -1,5 +1,5 @@
 import express from 'express'
-import { authmiddleware } from './middleware.js'
+import { authmiddleware } from './middleware.js'-0
 const app = express()
 const port = 3000
 
@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/secret', authmiddleware, (req, res, next) => {
+app.get('/secret', authmiddleware('kiphetmeestveelzijdigestukjevleeskip'), (req, res, next) => {
     res.send('Hello Stijn, who plays MTG!')
     next();
 })
