@@ -19,7 +19,8 @@ export class MainController
         let person = new Person({
             name: name,
             age: age,
-            email: email
+            email: email,
+            haarkleur: "blauw"
         });
 
         person.save()
@@ -29,6 +30,7 @@ export class MainController
     {
         //read all persons
         Person.find()
+            .populate('hobby')
             .then((result) => {
                 console.log(result);
             })

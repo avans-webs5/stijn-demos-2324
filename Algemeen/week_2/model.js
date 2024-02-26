@@ -26,10 +26,23 @@ const personSchema = new mongoose.Schema({
     email: {
         type: String,
         unique: true
+    },
+    hobby: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Hobby'
     }
 });
 
 // Create the person model
 const Person = mongoose.model('People', personSchema);
+
+const hobbySchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    }
+});
+
+const Hobby = mongoose.model('Hobby', hobbySchema);
 
 export { Person }

@@ -1,5 +1,16 @@
 # Linkjes en Bronnen
 
+# Rabbit MQ
+
+RabbitMQ has four different types of exchanges; 
+- Direct
+- Topic
+- Fanout
+- Headers
+
+
+https://medium.com/trendyol-tech/rabbitmq-exchange-types-d7e1f51ec825#:~:text=RabbitMQ%20has%20four%20different%20types,use%20the%20predefined%20default%20exchanges.
+
 # Mongo vs MySQL
 
 - MongoDB is faster with reading/storing*

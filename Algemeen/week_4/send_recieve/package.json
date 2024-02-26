@@ -1,16 +1,14 @@
 {
-  "name": "week_2",
+  "name": "send_recieve",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "app.js",
+  "main": "reciever.js",
   "scripts": {
-    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^8.1.1"
+    "amqplib": "^0.10.3"
   }
 }
