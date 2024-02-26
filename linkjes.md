@@ -1,5 +1,23 @@
 # Linkjes en Bronnen
 
+# Mongo vs MySQL
+
+- MongoDB is faster with reading/storing*
+- MongoDB supports two types of database scaling methods: Replication and Sharding.
+
+| # | MongoDB | MySQL |
+| --- | --- | --- |
+| Speed | Unstructured data | Structured data |
+| Scaling | Replication and Sharding**. | vertical scalability or read replicas. |
+| Security | Encrypting | ACLS |
+
+
+*Only if you read/store raw data
+** A document's shard key value determines its distribution across the shards.
+
+https://www.mongodb.com/docs/manual/sharding/
+https://www.astera.com/type/blog/mongodb-vs-mysql/
+
 # Updates Node 2024
 
 https://javascript.plainenglish.io/node-js-18-unveiled-whats-new-for-developers-in-2024-fdebe3930c35
