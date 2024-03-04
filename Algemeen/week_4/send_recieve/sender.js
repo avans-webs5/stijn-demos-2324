@@ -17,7 +17,7 @@ amqp.connect('amqp://localhost', function(err, conn) {
             ch.sendToQueue(q, new Buffer.from(msg));
             console.log(" [x] Sent %s", msg);
             counter++;
-        }, 3000);
+        }, 30);
 
         //console.log()
     });

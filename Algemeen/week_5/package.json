@@ -1,0 +1,17 @@
+{
+  "name": "week_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service_a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'node api_gateway.js' 'node service_a.js' 'node service_b.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.3",
+    "express-http-proxy": "^2.0.0"
+  }
+}

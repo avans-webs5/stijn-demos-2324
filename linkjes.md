@@ -1,5 +1,18 @@
 # Linkjes en Bronnen
 
+# Voor Noor
+
+- Bucket mogen ook!
+
+# Eventual consistency
+
+https://serverlessland.com/event-driven-architecture/visuals/eventual-consistency
+
+> "When data is inconsistent it can affect your users experience (users reading their own writes), so it’s worth considering UX patterns you can introduce to help (e.g webhooks back to client)."
+
+https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservices-for-video-monitoring/
+
+
 # Rabbit MQ
 
 RabbitMQ has four different types of exchanges; 
