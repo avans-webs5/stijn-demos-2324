@@ -1,5 +1,12 @@
 # Linkjes en Bronnen
 
+# JWT and Security 
+
+![](image.png)
+
+https://medium.com/geekculture/how-jwt-is-implemented-in-api-gateway-on-microservice-architecture-5dce8f5b89aa
+
+
 # Voor Noor
 
 - Bucket mogen ook!
